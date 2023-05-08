@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="arcade-style.css">
+  <link rel="stylesheet" href="snake-style.css">
+</head>
+<body>
+  <h1>Snake Game</h1>
+  <button id="home-button">Back to Arcade</button>
+  <canvas id="game" width="400" height="400"></canvas>
+  <script src="snake.js"></script>
+  <script>
+    document.getElementById("home-button").onclick = function () {
+      location.href = "arcade.html";
+    };
+  </script>
+</body>
+</html>
+
