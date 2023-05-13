@@ -32,6 +32,7 @@ let winner = null;
 // Get all the places on the game board
 const spots = document.querySelectorAll('.spot');
 
+// REVIEW: Nice, clean helper function that has a clear purpose
 // Function to change the current player
 function switchPlayer() {
   if (currentPlayer === 'X') {
